@@ -1,0 +1,265 @@
+﻿
+
+.body{
+    text-decoration:none;
+    height: 700px;
+    overflow-y:hidden;
+    background:linear-gradient(#fff, #76ba46) no-repeat ;
+    }
+
+@font-face {
+    font-family: Cartoon;
+    src: url('../fonts/cartoon.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Andalus;
+    src: url('../fonts/andlso.ttf') format('truetype');
+}
+
+#foundatn{
+        position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:75px;
+	z-index:2;
+    text-align: center;
+    border:none;
+    border-width:0px;
+    background:linear-gradient(#1fa3ef, #fff) no-repeat ;
+    }
+.foundatn{
+        top: 0px;
+        left: 0px;
+    }
+
+.display{
+        width: 70%;
+        height: 65%;
+        text-align: center;
+        z-index: -1;
+}
+.depth{
+        font-size: 25px;
+        font-family: Cartoon;
+        color: #333333;
+    }
+.textual{
+        font-size: 18px;
+    }
+
+.buk{
+        width: 90%;
+        text-align: center;
+        z-index:9;
+    }
+
+    .ak {
+	position:absolute;
+	top:40%;
+	width:86%;
+    height: auto;
+	z-index:9;
+    text-align: center;
+    left: 8%;
+}
+.auto-style1{
+        width: 90%;
+        height: 15%;
+        text-align: center;
+        z-index:9;
+    }
+    .auto-style2 {
+        width: 100%;
+        font-size: medium;
+        top: 0px;
+        left: 0px;
+        border:none;
+        border-color:#333333;
+        border-width:0px;
+    }
+
+    .auto-style25 {
+            width: 70%;
+            height: auto;
+            text-align: left;
+        }
+        .auto-style26 {
+            width: 100%;
+            text-align: left;
+        }
+
+    .ac {
+	position:absolute;
+	top:20%;
+	width:90%;
+	z-index:9;
+    text-align: center;
+    left: 8%;
+}
+
+  .holda {
+	position:absolute;
+	left:43%;
+	top:43%;
+	width:90px;
+	height:42px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  
+   .holdb {
+	position:absolute;
+	left:21%;
+	top:85%;
+	width:65px;
+	height:45px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  
+   .holdc {
+	position:absolute;
+	left:43%;
+	top:128%;
+	width:90px;
+	height:43px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  .holdd {
+	position:absolute;
+	left:70%;
+	top:83%;
+	width:60px;
+	height:58px;
+	text-align: center;
+    z-index: 10;
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .body{
+    text-decoration:none;
+    background:linear-gradient(#fff, #76ba46) no-repeat ;
+    height: 700px;
+    overflow-x:hidden; 
+}
+.textual{
+        font-size: 15px;
+    }
+    .display{
+        width: 110%;
+        height: 65%;
+    }
+   
+    .depth{
+        font-size: 20px;
+}
+
+    .logo {
+        Width: 90px; 
+        Height: 30px;
+    }
+
+     .logo_s {
+        Width: 50px; 
+        Height: 50px;
+    }
+
+        .ac {
+	position:absolute;
+	left:7%;
+	top:20%;
+	width:60%;
+	z-index:9;
+    text-align: center;
+}
+
+        .buk{
+        width: 80%;
+        height: 70%;
+        text-align: right;
+        z-index:9;
+    }
+
+      .ak {
+	position:absolute;
+	left:7%;
+	top:33%;
+	width:80%;
+    height: auto;
+	z-index:9;
+    text-align: center;
+}
+        .auto-style1{
+        width: 80%;
+        height: 15%;
+        text-align: right;
+        z-index:9;
+    }
+    .auto-style2 {
+        width: 100%;
+        font-size: medium;
+        top: 0px;
+        left: 0px;
+        border:none;
+        border-color:#333333;
+        border-width:0px;
+    }
+
+    .auto-style25 {
+            width: 80%;
+            height: auto;
+            text-align: right;
+        }
+        .auto-style26 {
+            width: 50%;
+            text-align: right;
+        }
+
+  .holda {
+	left:37%;
+	top:34%;
+	width:90px;
+	height:42px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  
+   .holdb {
+	left:8%;
+	top:53%;
+	width:50px;
+	height:45px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  
+   .holdc {
+	left:37%;
+	top:73%;
+	width:80px;
+	height:42px;
+	text-align: center;
+    z-index: 10;
+    
+}
+  .holdd {
+	left:78%;
+	top:53%;
+	width:50px;
+	height:50px;
+	text-align: center;
+    z-index: 10;
+    
+}
+
+}
